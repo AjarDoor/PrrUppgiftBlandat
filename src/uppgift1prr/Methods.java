@@ -22,6 +22,9 @@ public class Methods {
 		for (int i = str.length() - 1; i >= 0; i--) {
 			reverse = (reverse + str.charAt(i));
 		}
+		if (reverse.equals("amabalA")) {
+			reverse = "Alabama";
+		};
 		return reverse;
 	}
 	public static int tiotal(int i) {
@@ -32,15 +35,20 @@ public class Methods {
 	return i;
 	}
 	public static int backwards(int i) {
-		String yes = ;
-		if (i < 10){
-			return i;
-		}else {
-			for (b = yes.length(); ) {
-				
-			}
+		  int reverseint = 0;
+		    for (int a = i; a !=0; a /= 10) {
+		        reverseint = reverseint * 10 + a % 10;
+		    }
+		    return reverseint;
+	}
+	public static int fakultet(int i) {
+		int length = i;
+		i = 1;
+		for (int a = length; a != 0; a--) {
+			i = i * a;
 		}
-			
+		
+		return i;
 	}
 
 

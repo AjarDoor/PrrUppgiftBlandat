@@ -10,8 +10,16 @@ public class Methodtesting {
 		System.out.println(Methods.max(77, 12));
 		System.out.println("Max färdig");
 		
+		System.out.println(Methods.reverse("Dont input 'Alabama' by itself, it is the same both ways"));
+		
 		System.out.println(Methods.tiotal(2));
 		System.out.println("Tiotal färdig");
+		
+		System.out.println(Methods.backwards(228));
+		System.out.println("Backwards färdig");
+		
+		System.out.println(Methods.fakultet(5));
+		System.out.println("Fakultet färdig");
 	}
 
 }
