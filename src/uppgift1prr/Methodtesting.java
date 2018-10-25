@@ -23,6 +23,9 @@ public class Methodtesting {
 		
 		System.out.println("Hello there " + Methods.askForName() + ", thank you for telling me your name!");
 		System.out.println("askForName färdig");
+		
+		System.out.println(Methods.count('l', "Hello"));
+		System.out.println("Count färdig");
 	}
 
 }

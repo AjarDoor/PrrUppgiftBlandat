@@ -9,6 +9,7 @@ public class Methods {
 			return b;
 		}
 	}
+	
 	public static int max(int c, int d) {
 		if (c > d) {
 			return c;
@@ -16,6 +17,7 @@ public class Methods {
 			return d;
 		}
 	}
+	
 	public static String reverse(String str) {
 		String reverse = "";
 		for (int i = str.length() - 1; i >= 0; i--) {
@@ -26,6 +28,7 @@ public class Methods {
 		};
 		return reverse;
 	}
+	
 	public static int tiotal(int i) {
 	i = ( i / 10);
 	if (i < 1) {
@@ -33,6 +36,7 @@ public class Methods {
 	}
 	return i;
 	}
+	
 	public static int backwards(int i) {
 		  int reverseint = 0;
 		    for (int a = i; a !=0; a /= 10) {
@@ -40,6 +44,7 @@ public class Methods {
 		    }
 		    return reverseint;
 	}
+	
 	public static int fakultet(int i) {
 		int length = i;
 		i = 1;
@@ -49,12 +54,24 @@ public class Methods {
 		
 		return i;
 	}
+	
 	public static String askForName() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Input your name!");
 		String name = input.nextLine();
 		input.close();
 		return name;
+	}
+	
+	public static int count(char c, String str) {
+		int count = 0;
+		int num = 0;
+		for (int i = str.length() - 1; i >= 0; i--) {
+			if(str.charAt(i) == (c)) {
+				num++;
+			}
+		} count = num;
+		return count;
 	}
 
 
