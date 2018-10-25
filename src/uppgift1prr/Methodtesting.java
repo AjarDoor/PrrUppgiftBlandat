@@ -20,6 +20,9 @@ public class Methodtesting {
 		
 		System.out.println(Methods.fakultet(5));
 		System.out.println("Fakultet färdig");
+		
+		System.out.println("Hello there " + Methods.askForName() + ", thank you for telling me your name!");
+		System.out.println("askForName färdig");
 	}
 
 }

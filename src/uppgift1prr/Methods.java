@@ -1,7 +1,6 @@
 package uppgift1prr;
-
+import java.util.Scanner;
 public class Methods {
-	
 	
 	public static int min(int a, int b) {
 		if (a < b) {
@@ -49,6 +48,13 @@ public class Methods {
 		}
 		
 		return i;
+	}
+	public static String askForName() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input your name!");
+		String name = input.nextLine();
+		input.close();
+		return name;
 	}
 
 
