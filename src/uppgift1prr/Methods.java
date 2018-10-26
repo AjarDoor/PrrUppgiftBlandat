@@ -23,9 +23,6 @@ public class Methods {
 		for (int i = str.length() - 1; i >= 0; i--) {
 			reverse = (reverse + str.charAt(i));
 		}
-		if (reverse.equals("amabalA")) {
-			reverse = "Alabama";
-		};
 		return reverse;
 	}
 	
@@ -33,13 +30,13 @@ public class Methods {
 	i = ( i / 10);
 	if (i < 1) {
 		i = -1;
-	}
+		}
 	return i;
 	}
 	
 	public static int backwards(int i) {
 		  int reverseint = 0;
-		    for (int a = i; a !=0; a /= 10) {
+		    for (int a = i; a != 0; a /= 10) {
 		        reverseint = reverseint * 10 + a % 10;
 		    }
 		    return reverseint;
@@ -51,7 +48,6 @@ public class Methods {
 		for (int a = length; a != 0; a--) {
 			i = i * a;
 		}
-		
 		return i;
 	}
 	
@@ -72,6 +68,20 @@ public class Methods {
 			}
 		} count = num;
 		return count;
+	}
+	
+	public static double fahrenheitToCelsius(double farhenheit) {
+		double celsius = (farhenheit - 32) * 5/9 ;
+		return celsius;
+	}
+	
+	public static double kelvinToCelsius(double kelvin) {
+		double celsius = kelvin - 273.15;
+		return celsius;
+	}
+	
+	public static boolean isPrim(int i) {
+		return i;
 	}
 
 
