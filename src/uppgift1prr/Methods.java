@@ -81,8 +81,17 @@ public class Methods {
 	}
 	
 	public static boolean isPrim(int i) {
-		return i;
+        boolean flag = true;
+        for(int a = 2; a <= i/2; ++a)
+        {
+            // condition for nonprime number
+            if(i % a == 0)
+            {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
 	}
-
 
 }

@@ -33,7 +33,8 @@ public class Methodtesting {
 		System.out.println(Methods.kelvinToCelsius(4000));
 		System.out.println("Kelvin färdig");
 		
-		
+		System.out.println(Methods.isPrim(29));
+		System.out.println("IsPrim färdig");
 		
 		
 		
