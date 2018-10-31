@@ -11,6 +11,9 @@ public class Methodtasks {
 		
 		System.out.println(Methods.reverse(Methods.askForName()));
 		System.out.println("Uppgift 3 färdig");
+		
+		System.out.println(Methods.maxtask(25, 44, 25, 12, 22));
+		System.out.println("Uppgift 4 färdig");
 	}
 
 }
