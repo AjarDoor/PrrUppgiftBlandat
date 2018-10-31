@@ -9,7 +9,7 @@ public class Methodtasks {
 		System.out.println(Methods.isPrim(29));
 		System.out.println("Uppgift 2 färdig");
 		
-		System.out.println(Methods.askForName());
+		System.out.println(Methods.reverse(Methods.askForName()));
 		System.out.println("Uppgift 3 färdig");
 	}
 
