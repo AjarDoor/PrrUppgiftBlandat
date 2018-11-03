@@ -1,4 +1,5 @@
 package uppgift1prr;
+import java.util.Arrays;
 import java.util.Scanner;
 public class Methods {
 	
@@ -29,6 +30,15 @@ public class Methods {
 		}else {
 			return e;
 		}
+	}
+	public static int[] order(int i, int j, int k, int l, int m, int n, int o, int p) {
+		int iarr[] = {i, j, k, l, m, n, o, p};
+		Arrays.sort(iarr);
+		System.out.println("Sorted numbers:");
+		for (int num : iarr) {
+			System.out.println("Number = " + num);
+		}
+		return null;
 	}
 	
 	public static String reverse(String str) {

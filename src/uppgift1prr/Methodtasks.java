@@ -20,6 +20,11 @@ public class Methodtasks {
 		
 		System.out.println(Methods.tiotal(83));
 		System.out.println("Uppgift 6 färdig");
+		
+		System.out.println(Methods.order(8, 7, 4, 2, 1, 12, 2, 5));
+		System.out.println("Uppgift 7 färdig");
+		
+		
 	}
 
 }
