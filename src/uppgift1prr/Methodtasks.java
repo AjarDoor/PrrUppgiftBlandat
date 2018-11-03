@@ -14,6 +14,10 @@ public class Methodtasks {
 		
 		System.out.println(Methods.maxtask(25, 44, 25, 12, 22));
 		System.out.println("Uppgift 4 färdig");
+		
+		System.out.println(Methods.fakultet(8));
+		System.out.println("Uppgift 5 färdig");
+		
 	}
 
 }
