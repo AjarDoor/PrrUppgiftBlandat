@@ -24,7 +24,8 @@ public class Methodtasks {
 		System.out.println(Methods.order(8, 7, 4, 2, 1, 12, 2, 5));
 		System.out.println("Uppgift 7 färdig");
 		
-		
+		System.out.println(Methods.kelvinToCelsius(387));
+		System.out.println("Uppgift 8 färdig");
 	}
 
 }
