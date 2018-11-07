@@ -42,8 +42,8 @@ public class Methods {
 		}
 	}
 	/**
-	 * Jag fick skapa denna metod för uppgift 7
-	 * den tar in ett array av int och sorterar dem enligt storlek
+	 * Jag fick skapa denna metod för uppgift #7
+	 * den tar in ett array av int's och sorterar dem enligt storlek
 	 */
 	public static int[] order(int i, int j, int k, int l, int m, int n, int o, int p) {
 		int iarr[] = {i, j, k, l, m, n, o, p};
@@ -149,7 +149,9 @@ public class Methods {
         boolean flag = true;
         for(int a = 2; a <= i/2; ++a)
         {
-            // condition for nonprime number
+            /**
+             *  kondition för om det inte är primtal
+             */
             if(i % a == 0)
             {
                 flag = false;
